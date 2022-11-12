@@ -20,7 +20,7 @@
      height: 70px;
      margin: -45px 0 0 -45px;
      border-radius: 100%;
-     border: 3px solid #EB6025;
+     border: 3px solid pink;
      border-top-color: transparent;
      -webkit-animation: spin 1.7s linear infinite;
      animation: spin 1.7s linear infinite;

@@ -71,7 +71,7 @@ input:focus{
    COMMON STYLE START
 ==========================*/
 .kids-active-btn{
-    background: #EB6025;
+    background: #5e17eb;
     padding: 15px 60px;
     color: #fff;
     border-radius: 50px;
@@ -80,13 +80,13 @@ input:focus{
     font-weight: 500;
 }
 span.title-span{
-    color: #EB6025;
+    color: pink;
     font-size: 22px;
     letter-spacing: 10px;
     font-weight: 600;
 }
 .color-span{
-    color: #EB6025;
+    color: pink;
     font-family: 'Abril Fatface', cursive;
 }
 section{
@@ -108,7 +108,7 @@ section{
     MAIN STYLE START
 ==========================*/
 header{
-    background: #FDF8EE url('../images/herobg.png');
+    background: violet url('../images/herobg.png');
     min-height: 1000px;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -124,12 +124,12 @@ header .menu{
 }
 .navbar-light .navbar-nav .nav-link{
     font-size: 18px;
-    color: #242424;
+    color: white;
     font-weight: 500;
     margin-left: 30px;
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show .nav-link{
-    color: #EB6025;
+    color: white;
     font-weight: 600;
 }
 .navbar-light .navbar-nav .nav-link.kids-active-btn{
@@ -172,7 +172,7 @@ header .menu .dropdown .dropdown-menu .dropdown-item {
     background: transparent;
 }
 header .menu .dropdown .dropdown-menu .dropdown-item:hover {
-    color: #EB6025;
+    color: pink;
 }
 header .menu .dropdown .dropdown-menu .dropdown:hover .dropdown-menu {
     max-height: 500px;
@@ -193,7 +193,7 @@ header .menu .dropdown .dropdown-menu .dropdown .dropdown-menu {
     margin-right: 0px !important;
 }
 .is-sticky .menu, .homepage-two .is-sticky .menu{
-    background: #FDF8EE;
+    background: violet;
     padding: 5px 0px;
     transition: .5s all ease-in-out;
     z-index: 9999 !important;
@@ -532,7 +532,7 @@ header .menu .dropdown .dropdown-menu .dropdown .dropdown-menu {
     content: "";
     height: 100px;
     width: 2px;
-    background: #EB6025;
+    background: pink;
     top: -40%;
     left: 50%;
     transform: translateX(-50%);
@@ -571,10 +571,10 @@ header .menu .dropdown .dropdown-menu .dropdown .dropdown-menu {
     position: relative;
 }
 .activities .section-title h2{
-    color: #EB6025;
+    color: pink;
 }
 .activities-single-box{
-    border: 1px solid #EB6025;
+    border: 1px solid pink;
     padding: 30px 30px 20px 40px;
     border-radius: 10px;
     transition: .5s all ease-in-out;
@@ -582,7 +582,7 @@ header .menu .dropdown .dropdown-menu .dropdown .dropdown-menu {
 }
 .activitics-main-img img{
     width: 100%;
-    border: 2px dashed #EB6025;
+    border: 2px dashed pink;
     border-radius: 50%;
     overflow: hidden;
     transition: .5s ease-in-out;
@@ -649,7 +649,7 @@ header .menu .dropdown .dropdown-menu .dropdown .dropdown-menu {
     transition: .5s all ease-in-out;
 }
 .activities-img i{
-    background: #EB6025;
+    background: pink;
     padding: 15px;
     margin-top: 20px;
     font-size: 30px;
@@ -658,7 +658,7 @@ header .menu .dropdown .dropdown-menu .dropdown .dropdown-menu {
     color: #fff;
 }
 .activities-single-box:hover{
-    background: #EB6025;
+    background: pink;
     transition: .5s all ease-in-out;
 }
 .activities-single-box:hover h4, .activities-single-box:hover p{
@@ -700,7 +700,7 @@ i.fa.fa-angle-left {
     z-index: 11;
     color: #fff;
     left: -1%;
-    background: #EB6025;
+    background: pink;
     padding: 10px 17px;
     border-radius: 50%;
     transform: translateY(-50%);
@@ -715,7 +715,7 @@ i.fa.fa-angle-right {
     z-index: 11;
     color: #fff;
     right: -1%;
-    background: #EB6025;
+    background: pink;
     padding: 10px 17px;
     border-radius: 50%;
     transform: translateY(-50%);
@@ -736,11 +736,11 @@ i.fa.fa-angle-right {
     margin: 0px 5px 40px 5px;    
 }
 .classes-slider-item:hover{
-    background: #EB6025;
+    background: pink;
     transition: .5s ease-in-out;
 }
 .classes-slider-item:hover .slider-title span{
-    color: #EB6025;
+    color: pink;
 }
 .classes-slider-item:hover .slider-title{
     background: #fff;
@@ -756,7 +756,7 @@ i.fa.fa-angle-right {
 }
 .classes-slider-item:hover .slider-btn a{
     background: #fff;
-    color: #EB6025;
+    color: pink;
 }
 .classes-slider-item .slider-img{
     height: 250px;
@@ -773,10 +773,10 @@ i.fa.fa-angle-right {
     position: relative;
 }
 .slider-title{
-    background: #EB6025;
-    padding: 20px;
+    background: pink;
+    padding: 20px 30%;
     width: 80%;
-    text-align: left;
+    text-align: center;
     margin: 0px auto;
     border-radius: 10px;
     position: absolute;
@@ -845,12 +845,12 @@ i.fa.fa-angle-right {
     width: 100%;
     padding: 18px;
     border-radius: 50px;
-    border: 1px solid #EB6025;
+    border: 1px solid pink;
 }
 .classes-form [type=submit]{
     border-radius: 50px;
     font-weight: 700;
-    color: #EB6025;
+    color: pink;
     font-size: 20px;
     background: #fff;
     transition: .5s ease-in-out;
@@ -859,7 +859,7 @@ i.fa.fa-angle-right {
     padding-right: 40px;
 }
 .classes-form:hover [type=submit]{
-    background: #EB6025;
+    background: pink;
     color: #fff;
     transition: .5s ease-in-out;
 }
@@ -899,7 +899,7 @@ i.fa.fa-angle-right {
     color: gold;
 }
 .testimonial .section-title h2{
-    color: #EB6025;  
+    color: pink;  
 }
 
 .testimonial .says_info {
@@ -913,7 +913,7 @@ i.fa.fa-angle-right {
     list-style-type: none;
 }
 .testimonial_single ul li i{
-    color: #EB6025;
+    color: pink;
     margin-top: 20px;
 }
 .testimonial .testimonial_single {
@@ -987,11 +987,11 @@ i.fa.fa-angle-right {
     font-size: 24px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    color: #EB6025;
+    color: pink;
 }
 .fa-quote-left{
     font-size: 60px;
-    color: #EB6025;
+    color: pink;
 }
 .testimonial ul.slick-dots {
     position: absolute;
@@ -1084,7 +1084,7 @@ i.fa.fa-angle-right {
     font-weight: 600;
 }
 .button-group.filters-button-group button.button.is-checked{
-    color: #EB6025;
+    color: pink;
     font-weight: 700;   
 }
 .grid .single-gallery-item{
@@ -1137,7 +1137,7 @@ i.fa.fa-angle-right {
 i.fa-solid.fa-eye{color: #fff;transition: .5s;}
 .grid .single-gallery-item:hover .view i{
     font-size: 30px;
-    color: #EB6025;
+    color: pink;
     background: #fff;
     padding: 10px;
     opacity: 1;
@@ -1168,7 +1168,7 @@ i.fa-solid.fa-eye{color: #fff;transition: .5s;}
 .teachers .section-title h2{
     width: 60%;
     margin: 0px auto;
-    color: #EB6025;
+    color: pink;
 }
 .teachers .section-title p{
     margin-top: 15px;
@@ -1214,7 +1214,7 @@ i.fa-solid.fa-eye{color: #fff;transition: .5s;}
     padding: 15px 30px 25px 30px;
 }
 .teacher-slider-item span{
-    color: #EB6025;
+    color: pink;
     font-size: 16px;
 }
 .teacher-slider-item img{
@@ -1250,7 +1250,7 @@ i.fa-solid.fa-eye{color: #fff;transition: .5s;}
 .teacher-slider-item i.fa-twitter:hover{background: #1da1f2;transform: scale(1.1); transition: .5s;}
 .teacher-slider-item i.fa-instagram:hover{background: #3f729b;transform: scale(1.1); transition: .5s;}
 .teacher-social{
-    background: #EB6025;
+    background: pink;
     width: 270px;
     margin: 0px auto;
     padding: 15px 0px;
@@ -1329,7 +1329,7 @@ i.fa-solid.fa-eye{color: #fff;transition: .5s;}
 }
 .blog-text h4{
     font-size: 20px;
-    color: #EB6025;
+    color: pink;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
@@ -1340,7 +1340,7 @@ i.fa-solid.fa-eye{color: #fff;transition: .5s;}
 }
 .blog-text .blog-btn a{
     padding: 10px 40px;
-    background: #EB6025;
+    background: pink;
     color: #fff;
     border: transparent;
     border-radius: 30px;
@@ -1481,7 +1481,7 @@ footer p{
 .footer-link .nav-item .nav-link:hover{
     padding-left: 30px;
     transition: .5s ease-in-out;
-    color: #EB6025;
+    color: pink;
 }
 .footer-form input{
     width: 100%;
@@ -1489,7 +1489,7 @@ footer p{
     margin: 7px 0px;
 }
 .footer-form input[type=submit]{
-    background: #EB6025;
+    background: pink;
     color: #fff;
     border: none;
     font-weight: 700;
@@ -1569,7 +1569,7 @@ footer .footer-social {
     text-align: right;
 }
 .homepage-two .menu{
-    background: #fff;
+    /* background: #fff; */
     padding: 10px 0px;
 }
 .homepage-two .menu ul{
@@ -1581,7 +1581,7 @@ footer .footer-social {
 .header-top .footer-social i.fa-twitter{padding: 5px 7px;}
 .header-top .footer-social i.fa-instagram{padding: 5px 7px;}
 header.homepage-two.header{
-    background: url('../images/homepage-two.png');
+    background: url('../images/candy-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1683,7 +1683,7 @@ homepage-two-bottom start
 }
 /* ========box-one ===========*/
 .box-icon{
-    border: 2px solid #EB6025;
+    border: 2px solid pink;
     padding: 40px;
     position: relative;
     z-index: 1;
@@ -1700,7 +1700,7 @@ homepage-two-bottom start
     left: 0;
     height: 100%;
     width: 100%;
-    background: #EB6025;
+    background: pink;
     transform: rotate(45deg);
     z-index: -1;
     border-radius: 15px;
@@ -1730,7 +1730,7 @@ homepage-two-bottom start
 .box-icon.three::before{
     background: #0092B8;
 }
-.homepage-box-single.box-one h4{color: #EB6025;}
+.homepage-box-single.box-one h4{color: pink;}
 .homepage-box-single.box-two h4{color: #E669A8;}
 .homepage-box-single.box-three h4{color: #0092B8;}
 .counter-area.home-two{
@@ -1749,7 +1749,7 @@ homepage-two-bottom start
 }
 .single-counter:before{background: transparent;}
 .home-two.single-counter span, .home-two.single-counter p, .home-two.single-counter i{
-    color: #EB6025;
+    color: pink;
     font-weight: 700;
 }
 .home-two.single-counter p{
@@ -1763,7 +1763,7 @@ homepage-two-bottom start
     min-height: 1200px;
 }
 .pagetwo.activities{
-    padding: 180px 0px;
+    padding: 0px;
 }
 .pagetwo.activities .section-title{
     padding-top: 150px;
@@ -1773,6 +1773,7 @@ homepage-two-bottom start
 }
 .pagetwo.service-box{
     background: rgba(185, 92, 191, 0.06);
+    /* background: url('../images/candy-game-1-1.png'); */
     text-align: center;
     padding: 40px 30px;
     border-radius: 10px;
@@ -1832,7 +1833,7 @@ homepage-two-bottom start
     font-weight: 700;
 }
 .pagetwo.our-classes .classes-slider-item:hover{
-    background: linear-gradient(180deg, #BF1A88 60.42%, #EB6025 100%);
+    background: linear-gradient(180deg, #BF1A88 60.42%, pink 100%);
 }
 .pagetwo.our-classes .classes-slider-item{
     border-radius: 0;
@@ -1888,11 +1889,11 @@ homepage-two-bottom start
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 40px;
-    color: #EB6025;
+    color: pink;
     background: #fff;
     padding: 15px 17px 15px 22px;
     border-radius: 50%;
-    border: 2px solid #EB6025;
+    border: 2px solid pink;
 }
 /* ===========================
     TESIMONIAL STYLE START
@@ -1945,10 +1946,10 @@ homepage-two-bottom start
     TEACHERS STYLE START
 =============================*/
 .pagetwo.teachers{
-    background: url('../images/teacherbg.png');
     background-repeat: no-repeat;
     background-position: bottom left;
     z-index: 0;
+    padding-top:150px;
 }
 .pagetwo.teachers .teacher-slider-item{
     padding-top: 40px;
@@ -1997,7 +1998,7 @@ homepage-two-bottom start
     width: 97%;
     padding: 10px 20px;
     border: transparent;
-    border: 1px solid #EB6025;
+    border: 1px solid pink;
     border-radius: 5px;
     margin:0px 0px 10px 0px;
     height: 200px;
@@ -2051,7 +2052,7 @@ homepage-two-bottom start
     Header
 ======================== */
 .homepage-two.homepage-three .header-top{
-    background: #EB6025;
+    background: pink;
 }
 .homepage-two.homepage-three.header .menu{
     background: transparent;
@@ -2155,7 +2156,7 @@ header.homepage-two.homepage-three.header:before{
 }
 .about.homepage-three .about-text h4{
     font-size: 37px;
-    color: #EB6025;
+    color: pink;
     margin-top: 20px;
 }
 /* about */
@@ -2201,7 +2202,7 @@ header.homepage-two.homepage-three.header:before{
     cursor: pointer;
 }
 .service-slider.owl-carousel.owl-theme .slider-iteam:hover h4{
-    color: #EB6025;
+    color: pink;
     transition: .5s;
 }
 .service-slider.owl-carousel.owl-theme .slider-iteam h4{
@@ -2217,14 +2218,14 @@ header.homepage-two.homepage-three.header:before{
 .service-slider.owl-carousel.owl-theme i.fa.fa-angle-left{
     left: -1%;
     background: #fff;
-    color: #EB6025;
+    color: pink;
     padding: 7px 14px;
     box-shadow: 1px 0px 14px 0px rgb(207 207 207);
 }
 .service-slider.owl-carousel.owl-theme i.fa.fa-angle-right{
     right: -1%;
     background: #fff;
-    color: #EB6025;
+    color: pink;
     padding: 7px 14px;
     box-shadow: 1px 0px 14px 0px rgb(207 207 207);
 }
@@ -2286,13 +2287,13 @@ header.homepage-two.homepage-three.header:before{
     top: -8%;
     left: 90%;
     background: #fff;
-    color: #EB6025;
+    color: pink;
 }
 .pagetwo.our-classes.homepage-three .classes-slider.owl-carousel.owl-theme i.fa.fa-angle-right{
     top: -8%;
     right: 0%;
     background: #fff;
-    color: #EB6025;
+    color: pink;
 }
 
 /* teachers */
@@ -2336,7 +2337,7 @@ header.homepage-two.homepage-three.header:before{
 }
 .pagetwo.homepage-three.teachers .teacher-slider.owl-carousel.owl-theme i.fa.fa-angle-left, .pagetwo.homepage-three.teachers .teacher-slider.owl-carousel.owl-theme i.fa.fa-angle-right{
     background: #fff ;
-    color: #EB6025;
+    color: pink;
 }
 .pagetwo.homepage-three.teachers .teacher-shape-three{
     right: -5%;
@@ -2374,7 +2375,7 @@ header.homepage-two.homepage-three.header:before{
     padding-top: 180px;
 }
 .pricing-plan .section-title h2{
-    color: #EB6025;
+    color: pink;
 }
 .pricing-plan .section-title p{
     width: 50%;
@@ -2479,7 +2480,7 @@ header.homepage-two.homepage-three.header:before{
 /* abouyt */
 header.about-page{
     background: rgba(235, 96, 37, 0.33);
-    min-height: 400px;
+    min-height: 75px;
 }
 
 .menu{
@@ -2494,19 +2495,19 @@ header.about-page{
     z-index: 0;
 }
 header.about-page .header-text{
-    min-height: 540px;
+    min-height: 20px;
     text-align: center;
 }
 header.about-page .header-text h1{
-    color: #EB6025;
+    color: pink;
     margin: 0;
 }
 .breadcrumb .breadcrumb-item{
-    color: #EB6025;
+    color: pink;
     font-size: 19px;
 }
 .breadcrumb .breadcrumb-item.active {
-    color: #EB6025;
+    color: pink;
     font-weight: 600;
 
 }
@@ -2574,12 +2575,12 @@ header.about-page .header-text h1{
 
 .pagination ul li .page-numbers:hover,
 .pagination ul li .page-numbers.current {
-    background-color: #EB6025;
+    background-color: pink;
     color           : #fff;
 }
 
 .pagination ul li.custom a {
-    background: #EB6025;
+    background: pink;
     font-size       : 16px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2590,7 +2591,7 @@ header.about-page .header-text h1{
 }
 
 .pagination ul li.custom a:hover {
-    background-color: #EB6025;
+    background-color: pink;
 }
 
 /* Teacher-Profile */
@@ -2620,8 +2621,8 @@ header.about-page .header-text h1{
     margin-bottom: 25px;
 }
 .techer-social.footer-social ul li i{
-    border: 1px solid #EB6025;
-    color: #EB6025;
+    border: 1px solid pink;
+    color: pink;
 }
 .teacher-social-shape-one{
     position: absolute; 
@@ -2642,13 +2643,13 @@ header.about-page .header-text h1{
 
 }
 .sign-in-form input[type="submit"]{
-    background: #EB6025; 
+    background: pink; 
     color: #fff;
     font-weight: 500;
 }
 .modal-footer a{
     text-decoration: none;
-    color: #EB6025;
+    color: pink;
 }
 
 /* ==============
@@ -2692,15 +2693,15 @@ header.about-page .header-text h1{
 .nav-tabs .nav-link {
     border-top-left-radius: 0rem;
     border-top-right-radius: 0rem;
-    border: 1px solid #EB6025;
+    border: 1px solid pink;
     margin: 0px 10px;
-    color: #EB6025;
+    color: pink;
     font-size: 18px;
     padding: 10px 40px;
     transition: .5s;
 }
 .nav-tabs .nav-link.active{
-    background: #EB6025;
+    background: pink;
     color: #fff;
     border-radius: 30px;
     transition: .5s;
@@ -2721,7 +2722,7 @@ header.about-page .header-text h1{
 .course-module li i{
     margin-right: 10px;
     font-size: 18px;
-    color: #EB6025;
+    color: pink;
 }
 .course-btn{
     margin: 25px 0px 20px 0px;
@@ -2753,13 +2754,13 @@ header.about-page .header-text h1{
     background-size: cover;
 }
 .accordion-button:not(.collapsed){
-    color: #EB6025;
+    color: pink;
 }
 button:focus{
     box-shadow: none;
 }
 .fa-circle-exclamation{
-    color: #EB6025;
+    color: pink;
 }
 .insctuctor-img img{
     width: 100%;
@@ -2769,7 +2770,7 @@ button:focus{
 }
 .course-search form{
     width: 100%;
-    background: #EB6025;
+    background: pink;
     padding: 10px 15px 10px 30px;
     border-radius: 30px;
 }
@@ -2788,7 +2789,7 @@ button:focus{
     cursor: pointer;
 }
 .course-feature-top h4{
-    background: #EB6025;
+    background: pink;
     text-align: center;
     color: #fff;
     font-size: 24px;
@@ -2916,7 +2917,7 @@ button:focus{
 .sidebar-search input[type="submit"]{
     width: 30%;
     padding: 15px;
-    background: #EB6025;
+    background: pink;
     border: none;
     color: #fff;
     font-weight: 700;
@@ -2933,7 +2934,7 @@ button:focus{
 .blog-social ul li a{
     padding: 12px 17px;
     color: #fff;
-    background: #EB6025;
+    background: pink;
     font-size: 18px;
     border-radius: 50%;
 }
@@ -2953,7 +2954,7 @@ button:focus{
     width: 30%;
     float: left;
     margin: 5px 2px;
-    background: #EB6025;
+    background: pink;
     text-align: center;
     padding: 15px 0px;
     border-radius: 5px;
@@ -2989,14 +2990,14 @@ button:focus{
 }
 .writter-share ul li i {
     font-size: 20px;
-    color: #EB6025;    
+    color: pink;    
 }
 .writter-share ul li a{
     text-decoration: none;
-    color: #EB6025;
+    color: pink;
 }
 .writter-share ul li i.fa-eye{
-    color: #EB6025;
+    color: pink;
 }
 .post-page-bottom{
     border-top: 1px solid #F0F5FC;
@@ -3009,7 +3010,7 @@ button:focus{
 .post-page-bottom p{
     margin-top: 30px;
     font-size: 20px;
-    color: #EB6025;
+    color: pink;
 }
 .post-page-bottom p a{
     text-decoration: none;
@@ -3036,6 +3037,6 @@ button:focus{
     height: 140px;
 }
 .blog-form input[type="submit"]{
-    background:  #EB6025;
+    background:  pink;
     color: #fff;
 }
