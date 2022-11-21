@@ -108,7 +108,7 @@ section{
     MAIN STYLE START
 ==========================*/
 header{
-    background: violet url('../images/herobg.png');
+    background: #FFBE3E url('../images/herobg.png');
     min-height: 1000px;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -193,7 +193,7 @@ header .menu .dropdown .dropdown-menu .dropdown .dropdown-menu {
     margin-right: 0px !important;
 }
 .is-sticky .menu, .homepage-two .is-sticky .menu{
-    background: violet;
+    background: #FFBE3E;
     padding: 5px 0px;
     transition: .5s all ease-in-out;
     z-index: 9999 !important;
@@ -571,7 +571,7 @@ header .menu .dropdown .dropdown-menu .dropdown .dropdown-menu {
     position: relative;
 }
 .activities .section-title h2{
-    color: pink;
+    color: #00F388;
 }
 .activities-single-box{
     border: 1px solid pink;
@@ -1440,7 +1440,7 @@ i.fa-solid.fa-eye{color: #fff;transition: .5s;}
     FOOTER STYLE START
 =============================*/
 footer{
-    background: violet;
+    background: #FFBE3E;
     padding: 150px 0px;
     color: #fff;
     position: relative;
@@ -1553,7 +1553,7 @@ footer .footer-social {
 
 .header-top{
     padding: 10px 0px;
-    background: #BF1A88;
+    background: #FFBE3E;
 }
 .header-top-info ul {
     display: flex;
@@ -1581,7 +1581,7 @@ footer .footer-social {
 .header-top .footer-social i.fa-twitter{padding: 5px 7px;}
 .header-top .footer-social i.fa-instagram{padding: 5px 7px;}
 header.homepage-two.header{
-    background: url('../images/candy-bg.png');
+    background: url('../images/trivia-bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -1595,7 +1595,7 @@ header.homepage-two.header:before{
     left: 0;
     height: 100%;
     width: 100%;
-    background: linear-gradient(180deg, rgba(199, 29, 187, 0.71) 0.61%, rgba(255, 80, 6, 0.42) 100%);
+    /* background: linear-gradient(180deg, rgba(199, 29, 187, 0.71) 0.61%, rgba(255, 80, 6, 0.42) 100%); */
     z-index: -1;
 }
 .header-slider{
@@ -1741,7 +1741,7 @@ homepage-two-bottom start
 }
 .home-two.single-counter{
     background: none;
-    border: 3px dashed #BF1A88;
+    border: 3px dashed #FFBE3E;
     width: 200px;
     height: 200px;
     margin: 0px auto;
@@ -1756,7 +1756,7 @@ homepage-two-bottom start
     font-weight: 500;
 }
 .pagetwo.activities{
-    background: url('../images/home-service.png');
+    background: url('../images/question-mark-cloud-2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top left;
@@ -1783,7 +1783,7 @@ homepage-two-bottom start
     margin: 0px 20px 40px 0px;
 }
 .pagetwo.service-box:hover{
-  background: linear-gradient(180deg, #BF1A88 0%, rgba(249, 176, 73, 0.98) 100%);
+  background: linear-gradient(180deg, #FFBE3E 0%, rgba(249, 176, 73, 0.98) 100%);
   transition: 1s;
 }
 .pagetwo.service-box:hover i, .pagetwo.service-box:hover h4, .pagetwo.service-box:hover p{
@@ -1833,7 +1833,7 @@ homepage-two-bottom start
     font-weight: 700;
 }
 .pagetwo.our-classes .classes-slider-item:hover{
-    background: linear-gradient(180deg, #BF1A88 60.42%, pink 100%);
+    background: linear-gradient(180deg, #FFBE3E 60.42%, pink 100%);
 }
 .pagetwo.our-classes .classes-slider-item{
     border-radius: 0;
@@ -1842,13 +1842,13 @@ homepage-two-bottom start
     padding: 0px 40px 40px 40px;
 }
 .pagetwo.our-classes .kids-active-btn{
-    background: #BF1A88;
+    background: #FFBE3E;
 }
 /* ===========================
     VIDEO STYLE START
 =============================*/
 .pagetwo.video{
-    background: linear-gradient(94.73deg, #0092B8 9.94%, #BF1A88 116.18%);
+    background: linear-gradient(94.73deg, #0092B8 9.94%, #FFBE3E 116.18%);
     padding-top: 40px;
 }
 .pagetwo.video .video-img img{
@@ -2259,10 +2259,10 @@ header.homepage-two.homepage-three.header:before{
     font-family: 'Roboto', sans-serif;
     font-size: 25px;
     font-weight: 600;
-    color: #BF1A88; 
+    color: #FFBE3E; 
 }
 .pagetwo.our-classes .classes-slider-item:hover .pagetwo-price{
-    background: #BF1A88;
+    background: #FFBE3E;
 }
 .pagetwo.our-classes .classes-slider-item:hover .pagetwo-price h4{
     color: #fff;
@@ -2301,7 +2301,7 @@ header.homepage-two.homepage-three.header:before{
     background: none;
 }
 .pagetwo.homepage-three.teachers .section-title h2{
-    color: #BF1A88;
+    color: #FFBE3E;
 }
 .pagetwo.homepage-three.teachers .teacher-slider-item{
     position: relative;
@@ -2331,7 +2331,7 @@ header.homepage-two.homepage-three.header:before{
     align-items: center;
 }
 .teacher-slider-item-details .teacher-social{
-    background: #BF1A88;
+    background: #FFBE3E;
     padding: 10px 0px;
     width: 250px;
 }
@@ -2444,17 +2444,17 @@ header.homepage-two.homepage-three.header:before{
 }
 .single-price-table .price-btn .btn-primary.kids-active-btn{
     background: transparent;
-    border: 2px solid #BF1A88;
-    color: #BF1A88;
+    border: 2px solid #FFBE3E;
+    color: #FFBE3E;
 }
 .single-price-table .price-btn .btn-primary.kids-active-btn:hover{
-    background: #BF1A88;
+    background: #FFBE3E;
     color: #fff;
     border: 2px solid transparent;
 }
 
 .pagetwo.homepage-three.gallery .section-title h2 {
-    color: #BF1A88;
+    color: #FFBE3E;
 }
 /* call to action */
 .call-to-action.homepage-three {
@@ -2464,7 +2464,7 @@ header.homepage-two.homepage-three.header:before{
     width: 60%;
     margin: 0px auto;
     padding-bottom: 60px;
-    color: #BF1A88;
+    color: #FFBE3E;
     position: relative;
 }
 .callaction-shape-one{
@@ -2563,7 +2563,7 @@ header.about-page .header-text h1{
     width           : 50px;
     height          : 50px;
     line-height     : 50px;
-    background-color: #BF1A88;
+    background-color: #FFBE3E;
     text-decoration: none;
 }
 
@@ -2631,7 +2631,7 @@ header.about-page .header-text h1{
     width: 100%;
     z-index: -1;
 }
-.modal{background: linear-gradient(180deg, #BF1A88 0%, rgba(249, 176, 73, 0.98) 100%);}
+.modal{background: linear-gradient(180deg, #FFBE3E 0%, rgba(249, 176, 73, 0.98) 100%);}
 .modal-backdrop.show{z-index: 1;}
 .sign-in-form input{
     width: 100%;
